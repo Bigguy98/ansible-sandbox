@@ -1,0 +1,15 @@
+lb:
+  hosts:
+    loadbalancer:
+app:
+  hosts:
+    app01:
+    app02:
+db:
+  hosts:
+    database:
+prod:
+  hosts:
+    loadbalancer:
+    app01:
+    database:
